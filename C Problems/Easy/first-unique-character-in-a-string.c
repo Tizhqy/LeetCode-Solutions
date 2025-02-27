@@ -1,8 +1,5 @@
-#include <string.h>
-
 int firstUniqChar(char* s) {
     int lenght=strlen(s);
-
             
     for (int i = 0; i < lenght; i++)
     {
@@ -17,13 +14,12 @@ int firstUniqChar(char* s) {
             }
             
         }
-    }
-
-    if (X==1)
-    {
+        if (X==1)
+        {
         return i;
+        }
     }
-    
 
+ 
     return -1;
 }
