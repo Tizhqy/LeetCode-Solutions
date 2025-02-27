@@ -1,5 +1,3 @@
-//Explanation: 121 reads as 121 from left to right and from right to left.
-
 #include <limits.h>
 bool isPalindrome(int x) {
     if(x<0){
